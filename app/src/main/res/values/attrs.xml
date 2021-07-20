@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="dropCapTextStyle">
+        <flag name="bold" value="1" />
+        <flag name="italic" value="2" />
+        <flag name="underline" value="4" />
+    </attr>
+
+    <declare-styleable name="DropCapTextView">
+        <attr name="dropCapTextSize" format="dimension" />
+        <attr name="dropCapTextStyle" />
+        <attr name="dropCapTypeface" format="reference" />
+        <attr name="dropCapTextColor" format="reference|color" />
+        <attr name="dropCapLetterSpace" format="float" />
+        <attr name="dropCapLength" format="integer" />
+    </declare-styleable>
+</resources>

@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<HorizontalScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_alignParentBottom="true">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical">
+
+        <ImageButton
+            android:id="@+id/bold_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="6dp"
+            android:layout_marginStart="6dp"
+            android:padding="8dp"
+            android:layout_gravity="center_vertical"
+            android:background="?android:attr/selectableItemBackground"
+            android:src="@drawable/ic_baseline_format_bold_24">
+        </ImageButton>
+
+        <ImageButton
+            android:id="@+id/underline_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="6dp"
+            android:layout_marginStart="6dp"
+            android:padding="8dp"
+            android:layout_gravity="center_vertical"
+            android:background="?android:attr/selectableItemBackground"
+            android:src="@drawable/ic_baseline_format_underlined_24">
+        </ImageButton>
+
+        <ImageButton
+            android:id="@+id/italic_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="6dp"
+            android:layout_marginStart="6dp"
+            android:padding="8dp"
+            android:layout_gravity="center_vertical"
+            android:background="?android:attr/selectableItemBackground"
+            android:src="@drawable/ic_baseline_format_italic_24">
+        </ImageButton>
+
+        <Button
+            android:id="@+id/text_color_red_button"
+            android:layout_width="32dp"
+            android:layout_height="42dp"
+            android:layout_marginLeft="6dp"
+            android:layout_marginStart="6dp"
+            android:backgroundTint="@color/red">
+        </Button>
+
+        <Button
+            android:id="@+id/text_color_orange_button"
+            android:layout_width="32dp"
+            android:layout_height="42dp"
+            android:layout_marginLeft="6dp"
+            android:layout_marginStart="6dp"
+            android:backgroundTint="@color/orange">
+        </Button>
+
+        <TextView
+            android:id="@+id/text_size_42_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="6dp"
+            android:layout_marginStart="6dp"
+            android:padding="16dp"
+            android:gravity="center_vertical"
+            android:background="?android:attr/selectableItemBackground"
+            android:text="42"
+            android:textSize="14sp">
+        </TextView>
+
+        <TextView
+            android:id="@+id/text_size_180_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="6dp"
+            android:layout_marginStart="6dp"
+            android:padding="16dp"
+            android:gravity="center_vertical"
+            android:background="?android:attr/selectableItemBackground"
+            android:text="180"
+            android:textSize="14sp">
+        </TextView>
+
+        <TextView
+            android:id="@+id/typeface_serif_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="6dp"
+            android:layout_marginStart="6dp"
+            android:padding = "16dp"
+            android:gravity="center_vertical"
+            android:background="?android:attr/selectableItemBackground"
+            android:text="serif"
+            android:textSize="13sp">
+        </TextView>
+
+        <TextView
+            android:id="@+id/typeface_nanum_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="6dp"
+            android:layout_marginStart="6dp"
+            android:padding="16dp"
+            android:gravity="center_vertical"
+            android:background="?android:attr/selectableItemBackground"
+            android:text="나눔고딕"
+            android:textSize="13sp">
+        </TextView>
+    </LinearLayout>
+</HorizontalScrollView>

@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">DropCapEditTextSample</string>
+    <string name="hint_message">텍스트를 입력해주세요</string>
+    <string name="font_nanumgothic">fonts/nanumgothic.ttf</string>
+    <string name="dummy_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris congue turpis in ligula vulputate gravida. Nullam dignissim elit vel aliquet rhoncus. Aliquam varius nulla condimentum, varius ante sit amet, malesuada mauris.
+        \nAenean vitae neque accumsan, accumsan erat in, varius metus. Suspendisse rutrum diam quam, a elementum ligula sollicitudin eu. Fusce dapibus sed mauris eget tempor. Etiam gravida dignissim porttitor. Nunc sit amet elit id justo efficitur dapibus. Suspendisse velit nulla, malesuada vel vehicula ut, feugiat vel massa. Vivamus mattis risus ut est fringilla, quis pretium nisl vulputate.
+\nCurabitur scelerisque ex nec velit mattis elementum. Mauris vitae nulla consequat, vestibulum enim ac, finibus sem. Praesent semper gravida lacinia. Ut quis cursus augue, id cursus neque. Donec aliquam diam metus. Fusce ac justo molestie nibh laoreet dignissim eget leo. In volutpat, ex ac congue accumsan, mauris felis euismod quam, eu scelerisque massa risus sit amet nibh. Maecenas eu arcu egestas,
+        \nTincidunt massa eget, lacinia elit. Donec nisl magna, elementum eu mauris a, pharetra porta elit. Donec vel efficitur ligula, ac pellentesque ante. Interdum et malesuada fames ac ante ipsum primis in faucibus. Nam elementum sem sit amet pretium pulvinar. Curabitur consectetur porttitor odio nec auctor. Proin condimentum, dui non efficitur lobortis, ex justo gravida lorem, porta congue enim dui eu velit. Mauris id tincidunt ex.
+        \nCurabitur fringilla metus at erat congue, sit amet vulputate magna hendrerit.</string>
+</resources>

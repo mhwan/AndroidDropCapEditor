@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ui.MainActivity">
+
+    <include layout="@layout/layout_toolbar"
+        android:id="@+id/toolbar"/>
+
+    <com.example.dropcapedittextsample.ui.dropcapview.DropCapEditText
+        android:id="@+id/paragraphDropCapEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:gravity="top"
+        android:layout_above="@id/toolbar"
+        android:hint="@string/hint_message"
+        app:dropCapTextSize="42sp"
+        app:dropCapLetterSpace="0.05"
+        app:dropCapLength="1"
+        app:dropCapTextStyle="italic|underline" />
+</RelativeLayout>
